@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/krishnamita.netlify.app/fr/categories/</loc>
+    <loc>/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/krishnamita.netlify.app/categories/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/krishnamita.netlify.app/fr/categories/"
+                href="/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>/krishnamita.netlify.app/fr/</loc>
+    <loc>/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/krishnamita.netlify.app/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/krishnamita.netlify.app/fr/"
+                href="/fr/"
                 />
   </url>
   
   <url>
-    <loc>/krishnamita.netlify.app/fr/tags/</loc>
+    <loc>/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/krishnamita.netlify.app/tags/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/krishnamita.netlify.app/fr/tags/"
+                href="/fr/tags/"
                 />
   </url>
   

@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "https://krishnamita.netlify.app"
-title = "Krishnamita | Hugo Portfolio Template"
+baseURL = "krishnamita.netlify.app"
+title = "Krishnamita's Profile"
 theme = "somrat"
 # disable language
 disableLanguages = [] # desable language from here

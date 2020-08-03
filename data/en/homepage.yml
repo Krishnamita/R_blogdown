@@ -1,12 +1,12 @@
 ########################## hero area ##########################
 hero:
-  title : "I'm Somrat Sorkar"
+  title : "I'm Krishnamita Banerjee"
 
   # animated text loop
   occupations:
-    - "Web Developer"
-    - "Graphic Designer"
-    - "Database Manager"
+    - "Data Scientist"
+    - "Software Engineer"
+    - "Android Developer"
 
   # slider background image loop
   slider_image:
@@ -27,7 +27,7 @@ fullscreen_nav:
   bg_image : "images/backgrounds/full-nav-bg.jpg"
   first_name : "MacGyver"
   last_name : "SOMRAT"
-  
+
 
 ########################### About ##################################
 about:
@@ -51,13 +51,13 @@ experience:
       company : "Fiverr.com"
       duration : "2016-2018"
       content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
-      
+
     # experience item loop
     - name : "Graphic Designer"
       company : "Fiverr.com"
       duration : "2015-2018"
       content : "Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
-      
+
     # experience item loop
     - name : "Database Manager"
       company : "Polytechnic"
@@ -73,15 +73,15 @@ skill:
     # skill item loop
     - name : "Web Development"
       parcentage : "98%"
-      
+
     # skill item loop
     - name : "Graphic Design"
       parcentage : "85%"
-      
+
     # skill item loop
     - name : "Database Management"
       parcentage : "90%"
-      
+
     # skill item loop
     - name : "Wordpress"
       parcentage : "70%"
@@ -95,23 +95,23 @@ service:
     # service item loop
     - name : "Web Development"
       image : "images/icons/web-development.png"
-      
+
     # service item loop
     - name : "Graphic Design"
       image : "images/icons/graphic-design.png"
-      
+
     # service item loop
     - name : "Database Management"
       image : "images/icons/dbms.png"
-      
+
     # service item loop
     - name : "Software Development"
       image : "images/icons/software-development.png"
-      
+
     # service item loop
     - name : "Digital Marketing"
       image : "images/icons/marketing.png"
-      
+
     # service item loop
     - name : "Mobile App Development"
       image : "images/icons/mobile-app.png"
@@ -138,85 +138,85 @@ portfolio:
       image : "images/portfolio/item1.jpg"
       date : "Feb 2018"
       category : "Web Development"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item2.jpg"
       date : "Feb 2018"
       category : "Web Development"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item3.jpg"
       date : "Feb 2018"
       category : "Web Development"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item4.jpg"
       date : "Feb 2018"
       category : "Web Development"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item5.jpg"
       date : "Feb 2018"
       category : "Web Development"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item6.jpg"
       date : "Feb 2018"
       category : "Web Development"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item7.jpg"
       date : "Feb 2018"
       category : "Graphics"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item8.jpg"
       date : "Feb 2018"
       category : "Graphics"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item9.jpg"
       date : "Feb 2018"
       category : "Database"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item10.jpg"
       date : "Feb 2018"
       category : "Database"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item11.jpg"
       date : "Feb 2018"
       category : "Database"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item12.jpg"
       date : "Feb 2018"
       category : "Graphics"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item13.jpg"
       date : "Feb 2018"
       category : "Graphics"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item14.jpg"
       date : "Feb 2018"
       category : "Graphics"
-      
+
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item15.jpg"
@@ -235,14 +235,14 @@ testimonial:
       designation : "CEO, RANDOM COMPANY"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
                 omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
-                
+
     # slider item loop
     - name : "Peter Parker"
       image : "images/clients/client2.jpg"
       designation : "CEO, RANDOM COMPANY"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
                 omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
-                
+
     # slider item loop
     - name : "Jessica Jones"
       image : "images/clients/client3.jpg"
@@ -259,17 +259,17 @@ funfacts:
     - name : "HANDS TO WORK"
       image : "images/icons/works.png"
       count : "100"
-      
+
     # funfacts item loop
     - name : "HAPPY CLIENT"
       image : "images/icons/happy.png"
       count : "200"
-      
+
     # funfacts item loop
     - name : "FINISHED PROJECT"
       image : "images/icons/project.png"
       count : "250"
-      
+
     # funfacts item loop
     - name : "CUPS OF COFFEE"
       image : "images/icons/coffee.png"

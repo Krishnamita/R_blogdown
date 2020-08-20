@@ -4,15 +4,15 @@ hero:
 
   # animated text loop
   occupations:
-    - "Data Scientist"
+    - "Aspiring Data Scientist"
     - "Software Engineer"
     - "Android Developer"
 
   # slider background image loop
   slider_image:
-    - "images/slider/slider-1.jpg"
-    - "images/slider/slider-2.jpg"
-    - "images/slider/slider-3.jpg"
+    - "images/slider/ds.jpg"
+    - "images/slider/se.jpg"
+    - "images/slider/programming.jpg"
 
   # button
   button:
@@ -25,8 +25,8 @@ hero:
 fullscreen_nav:
   enable : true
   bg_image : "images/backgrounds/full-nav-bg.jpg"
-  first_name : "MacGyver"
-  last_name : "SOMRAT"
+  first_name : "Krishnamita Banerjee"
+  #last_name : "Banerjee"
 
 
 ########################### About ##################################
@@ -34,7 +34,7 @@ about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
   title : "KNOW MORE <br> ABOUT ME"
-  content : "It's Somrat, Professional Web Developer. I love to write code, it's my passoin. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.<br>No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connect with me............😊"
+  content : "It's Krishnamita, an enthusiastic B.Tech grad in Computer Science having skills in various domains, who loves to learn new things and implement it in innovative ways. I love to solve problems, it's my passion. Well recognised for maintaining cordial relationships and able to contribute as individual as well as in team. I have sound knowledge in Data Science, Machine Learning,  Big Data Analytics and also in Application Development. Currently I'm learning Web Development to take my existing skills to the next level. Stay connected with me............😊"
   # button
   button:
     enable : true
@@ -47,22 +47,22 @@ experience:
   title : "EXPERIENCE"
   experience_list:
     # experience item loop
-    - name : "Web Developer"
-      company : "Fiverr.com"
-      duration : "2016-2018"
-      content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
+    - name : "Data Science Intern"
+      company : "Softanbees Technologies Pvt. Ltd."
+      duration : "March 2020- Present"
+      content : "I worked with various Data Science tools like R, Python, and powerful analytics tool like Power BI to solve business problems. Currently I'm learning to deploy models using Shiny and Flask framework."
 
     # experience item loop
-    - name : "Graphic Designer"
-      company : "Fiverr.com"
-      duration : "2015-2018"
-      content : "Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
+    - name : "Research Intern"
+      company : "National Institute of Technology, Durgapur"
+      duration : "June 2019-November 2019"
+      content : "I worked on Computer Vision, specifically in finding the Image aesthetic value using CNN architecture(GoogleNet). I also worked on object detection from video."
 
     # experience item loop
-    - name : "Database Manager"
-      company : "Polytechnic"
-      duration : "2014-2018"
-      content : "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
+    - name : "Vocational Trainee"
+      company : "Durgapur Steel Plant"
+      duration : "January 2019-February 2019"
+      content : "I was in the C&IT department, I've observed and learnt their work ethics and how they manage that huge amount of data generated regularly using Prolog and SAP."
 
 
 ############################### Skill #################################
@@ -71,20 +71,24 @@ skill:
   title : "SKILL"
   skill_list:
     # skill item loop
-    - name : "Web Development"
-      parcentage : "98%"
-
-    # skill item loop
-    - name : "Graphic Design"
+    - name : "Data Science using R,Python"
       parcentage : "85%"
 
     # skill item loop
-    - name : "Database Management"
-      parcentage : "90%"
+    - name : "Android App Development"
+      parcentage : "65%"
 
     # skill item loop
-    - name : "Wordpress"
-      parcentage : "70%"
+    - name : "Database Management"
+      parcentage : "75%"
+
+    # skill item loop
+    - name : "Front-End Web Development"
+      parcentage : "80%"
+
+    - name : "Big Data Analytics using Pyspark"
+      parcentage : "65%"
+
 
 
 ################################### Service ##############################3
@@ -93,12 +97,12 @@ service:
   title : "SERVICES"
   service_list:
     # service item loop
-    - name : "Web Development"
-      image : "images/icons/web-development.png"
+    - name : "Data Science"
+      image : "images/icons/data-science.png"
 
     # service item loop
-    - name : "Graphic Design"
-      image : "images/icons/graphic-design.png"
+    - name : "Web Development"
+      image : "images/icons/web-development.png"
 
     # service item loop
     - name : "Database Management"
@@ -109,8 +113,8 @@ service:
       image : "images/icons/software-development.png"
 
     # service item loop
-    - name : "Digital Marketing"
-      image : "images/icons/marketing.png"
+    - name : "Big Data Analytics"
+      image : "images/icons/big-data.png"
 
     # service item loop
     - name : "Mobile App Development"

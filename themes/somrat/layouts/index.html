@@ -6,9 +6,9 @@
       Start Header
     =============================== -->
 <section class="header" id="home">
-  <div class="logo">
+<!--  <div class="logo">
     <img class="img-fluid" src="{{ .Site.Params.logo_light | relURL }}" alt="{{ .Site.Title }}">
-  </div>
+  </div> -->
   <div class="slider-prev-button slider-button">
     <i class="fa fa-angle-left"></i>
   </div>
@@ -103,7 +103,7 @@
         {{ end }}
       </ul>
       <!-- Language List -->
-      {{- if .Site.IsMultiLingual }}
+      <!--{{- if .Site.IsMultiLingual }}
       <select id="select-language" onchange="location = this.value;">
         {{ $siteLanguages := .Site.Languages}}
         {{ $pageLang := .Page.Lang}}
@@ -122,7 +122,7 @@
         {{ end }}
         {{ end }}
       </select>
-      {{ end }}
+      {{ end }}-->
       <!-- /desktop-menu -->
 
       <!-- mobile-menu -->
@@ -145,7 +145,7 @@
               {{ end }}
             </ul>
             <!-- Language List -->
-            {{- if .Site.IsMultiLingual }}
+            <!--{{- if .Site.IsMultiLingual }}
             <select class="ml-4" id="select-language" onchange="location = this.value;">
               {{ $siteLanguages := .Site.Languages}}
               {{ $pageLang := .Page.Lang}}
@@ -164,7 +164,7 @@
               {{ end }}
               {{ end }}
             </select>
-            {{ end }}
+            {{ end }}-->
             <ul class="mobile-menu-icons list-inline">
               {{ range .Site.Params.social }}
               <li><a href="{{ .link | safeURL }}"><i class="fa {{ .icon }}"></i></a></li>

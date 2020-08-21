@@ -219,7 +219,7 @@
             <div class="single-experience">
               <h4>{{ .name | markdownify }}</h4>
               {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }}
-              {{ with .duration }} <span>{{ . | markdownify }}</span> {{ end }}
+              {{ with .duration }} <p>{{ . | markdownify }}</p> {{ end }}
               {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
             </div>
           </li>
@@ -247,6 +247,28 @@
       </div>
       {{ end }}
       {{ end }}
+</div>
+      <div class="row education-skill">
+        {{ if $data.homepage.education.enable }}
+        {{ with $data.homepage.education }}
+        <div class="col-lg-6 col-sm-6 col-11 education wow fadeInUp" data-wow-duration="1.5s">
+          <h3>{{ .title }}</h3>
+          <ul class="education-chart">
+            {{ range .education_list }}
+            <li>
+              <div class="single-education">
+                <h4>{{ .name | markdownify }}</h4>
+                {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }}
+                {{ with .duration }} <h5>{{ . | markdownify }}</h5> {{ end }}
+                {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
+              </div>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+        {{ end }}
+
     </div>
   </div>
 </section>

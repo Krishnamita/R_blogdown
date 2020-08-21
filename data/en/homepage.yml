@@ -53,10 +53,10 @@ experience:
       content : "I worked with various Data Science tools like R, Python, and powerful analytics tool like Power BI to solve business problems. Currently I'm learning to deploy models using Shiny and Flask framework."
 
     # experience item loop
-    - name : "Research Intern"
-      company : "National Institute of Technology, Durgapur"
+    - name : "Machine Learning Research Intern"
+      company : "NIT Durgapur"
       duration : "June 2019-November 2019"
-      content : "I worked on Computer Vision, specifically in finding the Image aesthetic value using CNN architecture(GoogleNet). I also worked on object detection from video."
+      content : "I worked on Computer Vision, specifically in finding the Image aesthetic value using CNN architecture(GoogleNet). I also worked on object detection from images and videos."
 
     # experience item loop
     - name : "Vocational Trainee"
@@ -88,7 +88,28 @@ skill:
 
     - name : "Big Data Analytics using Pyspark"
       parcentage : "65%"
+########################education##############################################
+education:
+  enable : true
+  title : "EDUCATION"
+  education_list:
+    # experience item loop
+    - name : "Bachelor of Technology in Computer Science"
+      company : "Dr.B.C. Roy Engineering College,Durgapur"
+      duration : "2016-2020"
+      content : "CGPA: 8.52"
 
+    # experience item loop
+    - name : "Senior Secondary Education"
+      company : "Guru Teg Bahadur Public School"
+      duration : "2014-2016"
+      content : "Percentage: 78.5%"
+
+    # experience item loop
+    - name : "Secondary Education"
+      company : "Durgapur Ispat Vidyalaya"
+      duration : "2003-2014"
+      content : "CGPA: 9.6"
 
 
 ################################### Service ##############################3

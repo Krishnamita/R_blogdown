@@ -931,6 +931,9 @@ input:checked + label span:last-child {
   margin-top: 40px;
 }
 
+.education-skill {
+  margin-top: 40px;
+}
 .experience h3,
 .skill h3 {
   color: #0f4c75;
@@ -992,6 +995,70 @@ ul.experience-chart h4 {
 }
 
 .single-experience {
+  position: relative;
+  top: -2px;
+}
+.education h3,
+.skill h3 {
+  color: #0f4c75;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.education-chart {
+  list-style: none;
+  padding: 0px 0px 0px 6px;
+  margin-top: 40px;
+}
+
+ul.education-chart li {
+  padding-left: 30px;
+  border-left: 2px solid #0f4c75;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+ul.education-chart li:last-child {
+  padding-bottom: 0;
+}
+
+ul.education-chart li:after {
+  position: absolute;
+  top: -1px;
+  left: -12px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #0f4c75;
+  background: #fff;
+  content: '';
+  -webkit-transition: all 0.3s;
+  transition: all 0.7s;
+}
+
+ul.education-chart li:hover:after {
+  background: #0f4c75;
+}
+
+ul.education-chart h4 {
+  font-size: 19px;
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-weight: 700;
+  color: #0f4c75;
+}
+
+.education-chart li span {
+  font-weight: 700;
+  color: #000000;
+}
+
+.education-chart li p {
+  color: #0f4c75;
+}
+
+.single-education {
   position: relative;
   top: -2px;
 }
@@ -1720,7 +1787,7 @@ textarea.form-control::-webkit-input-placeholder,
     margin-bottom: 5px;
   }
   .animated-text {
-    font-size: 35px;
+    font-size: 18px;
     margin-top: 7px;
     margin-bottom: 2px;
     font-family: 'Merriweather', serif;
@@ -1756,6 +1823,7 @@ textarea.form-control::-webkit-input-placeholder,
     display: inline-block;
     font-size: 35px;
     margin: 0;
+    font-family: verdana,sans-serif;
   }
   .occupation {
     font-size: 15px;
@@ -2002,6 +2070,9 @@ textarea.form-control::-webkit-input-placeholder,
     flex-wrap: wrap;
   }
   .experience-skill {
+    margin-top: 10px;
+  }
+  .education-skill {
     margin-top: 10px;
   }
   .experience-chart,

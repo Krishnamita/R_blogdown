@@ -25,6 +25,10 @@ body {
   height: 100%;
 }
 
+.button{
+  margin-top: 20px;
+  padding-left: 50%;
+}
 .no-js .all-container {
   opacity: 1;
 }
@@ -1121,6 +1125,71 @@ ul.education-chart h4 {
 }
 
 .skillbar-bar {
+  height: 10px;
+  margin: 0px 2px;
+  width: 0px;
+  background: #0f4c75;
+  border-radius: 22px;
+  -moz-border-radius: 22px;
+  -webkit-border-radius: 22px;
+}
+
+.hobby-progress-bar {
+  margin-top: 41px;
+}
+
+.hobbybar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  background: #fff;
+  border: 2px solid #0f4c75;
+  height: 18px;
+  border-radius: 22px;
+  -moz-border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  -webkit-transition-property: width, background-color;
+  transition-property: width, background-color;
+}
+
+.no-js .first-hobby {
+  width: 98%;
+}
+
+.no-js .second-hobby {
+  width: 85%;
+}
+
+.no-js .third-hobby {
+  width: 92%;
+}
+
+.no-js .fourth-hobby {
+  width: 60%;
+}
+
+.hobby-bar-title,
+.hobby-bar-percent {
+  font-size: 16px;
+  color: #0f4c75;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+.hobby-bar-percent {
+  float: right;
+}
+
+.hobby-bar-bar {
   height: 10px;
   margin: 0px 2px;
   width: 0px;

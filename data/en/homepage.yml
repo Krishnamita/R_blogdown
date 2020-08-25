@@ -177,7 +177,7 @@ call_to_action:
 ############################# portfolio ################################
 portfolio:
   enable : true
-  title : "PORTFOLIO"
+  title : "BLOGS"
   portfolio_list:
     # portfolio item loop
     - name : "Clustering using R"

@@ -125,8 +125,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Credit: I would like to express my special thanks to [Softanbees Technologies Pvt. Ltd.](https://softanbees.com/) for guiding me throughout the project."
-#"Copyright &copy; 2020 website by [Krishnamita](https://krishnamita.netlify.com)"
+copyright = "Copyright &copy; 2020 website by [Krishnamita](https://krishnamita.netlify.com)"
 
 
 ################################### French language #####################################

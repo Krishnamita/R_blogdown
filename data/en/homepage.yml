@@ -248,7 +248,7 @@ funfacts:
     # funfacts item loop
     - name : "CUPS OF COFFEE"
       image : "images/icons/coffee.png"
-      count : "10"
+      count : "1"
 
 
 ############################## contact ###########################

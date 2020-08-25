@@ -1,7 +1,9 @@
 /*--------------------------------
    Start Preloader & General Styling
 ----------------------------------*/
-
+.para{
+    color: #0f4c75;
+}
 html {
   height: 100%;
 }

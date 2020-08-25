@@ -1,4 +1,4 @@
-name = "Somrat"
+name = "Krishnamita"
 license = "MIT"
 licenselink = "https://github.com/Somrat37/somrat/blob/master/LICENSE"
 description = "Portfolio Template"
@@ -8,5 +8,5 @@ features = ['bootstrap','responsive']
 min_version = "0.60.0"
 
 [author]
-  name = "somrat"
+  name = "Krishnamita"
   homepage = "https://krishnamita.netlify.com/"
